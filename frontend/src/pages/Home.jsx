@@ -34,8 +34,8 @@ const Home = () => {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <HeroSection />
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-12 text-slate-900">
-        <HeroSection />
 
         <BenefitGrid cards={benefitCards} />
 
